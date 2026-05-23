@@ -1,2 +1,71 @@
-# Thesis
-Design and Control of a Solar-Powered Irrigation System for Remote Farmlands
+# Solar-Powered Buck-Boost Converter — Thesis Project
+
+An STM32-based MPPT buck-boost converter for solar-powered soil moisture monitoring and pump control.
+
+## Overview
+
+This project presents the design and implementation of a solar-powered irrigation system optimised for off-grid rural use. The system integrates a photovoltaic panel, a non-inverting DC–DC buck-boost converter, a backup battery, a water pump, and a microcontroller-based control unit on a custom four-layer printed circuit board. A perturb-and-observe maximum power point tracking (MPPT) algorithm is implemented to maximise energy extraction from the solar panel across varying irradiance and temperature conditions. A capacitive soil moisture sensor drives a separate pump-control loop, varying pump speed in discrete stages based on measured soil dryness. The converter was validated in MATLAB Simulink and characterised experimentally through duty-cycle sweeps, with the measured input–output relationships closely matching theoretical predictions. The completed system demonstrates autonomous solar energy harvesting and adaptive water delivery, providing a viable platform for off-grid agricultural applications in resource-limited regions.
+
+## Repository Structure
+.
+├── firmware/          STM32CubeIDE project (STM32F446RE)
+│   ├── Core/          Application source code (main.c, peripherals)
+│   ├── Drivers/       STM32 HAL drivers
+│   └── *.ioc          STM32CubeMX configuration
+│
+└── hardware/          KiCad PCB design
+├── SolarSystem/   KiCad project files (schematic + PCB layout)
+├── gerbers/       Manufacturing files for PCB fabrication
+├── libraries/     Custom footprints and symbols
+├── SolarSystem Layout.pdf   PDF file of SolarSystem schematics
+└── SolarSystem_BOM.csv   Bill of materials
+
+
+## Hardware
+
+- **MCU:** STM32F446RE (ARM Cortex-M4 @ 180 MHz)
+- **Topology:** Synchronous buck-boost converter
+- **Sensing:** Panel voltage/current (ADC), soil moisture probe
+- **Control:** PWM duty-cycle modulation for MPPT
+- **Output:** Pump driver with variable speed (PUMP_OFF/SLOW/FAST/FULL)
+
+## Firmware Features
+
+- MPPT algorithm (perturb and observe)
+- I-V curve sweep for panel characterisation
+- Soil moisture calibration (dry/wet bounds)
+- Automated pump control based on moisture thresholds
+- UART telemetry for monitoring and debugging
+
+## Building the Firmware
+
+**Requirements:**
+- [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) (tested on v1.x)
+- ST-LINK programmer (or compatible STM32 board with built-in debugger)
+
+**Steps:**
+1. Open STM32CubeIDE
+2. **File → Import → Existing Projects into Workspace**
+3. Browse to the `firmware/` folder in this repository
+4. Select the project and click **Finish**
+5. Build with **Cmd+B** (macOS) or **Ctrl+B** (Windows/Linux)
+6. Flash to the target with the green Run arrow
+
+## Viewing the Hardware
+
+The PCB design is created in [KiCad](https://www.kicad.org/) (free, open-source).
+
+**To view the schematic and PCB layout:**
+1. Install KiCad (version 7 or newer)
+2. Open `hardware/SolarSystem/` and double-click the `.kicad_pro` file
+
+**Manufacturing files:**
+The `hardware/gerbers/` folder contains ready-to-fabricate Gerber files compatible with most PCB manufacturers (JLCPCB, PCBWay, OshPark, etc.).
+
+## Author
+
+Louie O'Neil
+
+## License
+
+This project is shared as part of academic thesis work. See `LICENSE` for details.
