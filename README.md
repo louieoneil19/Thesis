@@ -20,7 +20,7 @@ This project presents the design and implementation of a solar-powered irrigatio
 ├── libraries/     Custom footprints and symbols
 ├── SolarSystem Layout.pdf   PDF file of SolarSystem schematics
 └── SolarSystem_BOM.csv   Bill of materials
-
+```
 
 ## Where to Find the Main Code
 
