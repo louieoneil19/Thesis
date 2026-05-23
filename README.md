@@ -7,6 +7,7 @@ An STM32-based MPPT buck-boost converter for solar-powered soil moisture monitor
 This project presents the design and implementation of a solar-powered irrigation system optimised for off-grid rural use. The system integrates a photovoltaic panel, a non-inverting DC–DC buck-boost converter, a backup battery, a water pump, and a microcontroller-based control unit on a custom four-layer printed circuit board. A perturb-and-observe maximum power point tracking (MPPT) algorithm is implemented to maximise energy extraction from the solar panel across varying irradiance and temperature conditions. A capacitive soil moisture sensor drives a separate pump-control loop, varying pump speed in discrete stages based on measured soil dryness. The converter was validated in MATLAB Simulink and characterised experimentally through duty-cycle sweeps, with the measured input–output relationships closely matching theoretical predictions. The completed system demonstrates autonomous solar energy harvesting and adaptive water delivery, providing a viable platform for off-grid agricultural applications in resource-limited regions.
 
 ## Repository Structure
+```
 .
 ├── firmware/          STM32CubeIDE project (STM32F446RE)
 │   ├── Core/          Application source code (main.c, peripherals)
