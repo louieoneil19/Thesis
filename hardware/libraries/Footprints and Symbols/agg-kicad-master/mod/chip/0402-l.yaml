@@ -1,0 +1,10 @@
+chip_shape: [1.0, 0.5]
+courtyard_gap: 0.1
+description: |-
+  0402-L from IPC-7351B: CAPC1005X55L
+  This is a LEAST environment
+name: 0402-L
+pad_shape: [0.52, 0.52]
+pin_shape: [-0.3, 0.5]
+pitch: 0.8
+silk: null

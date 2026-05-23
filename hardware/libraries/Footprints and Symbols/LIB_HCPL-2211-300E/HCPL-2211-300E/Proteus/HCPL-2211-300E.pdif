@@ -1,0 +1,158 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "HCPL-2211-300E"
+   (description "Broadcom, HCPL-2211-300E DC Input Logic Gate Output Optocoupler, Surface Mount, 8-Pin DIP")
+   (family "ANA")
+   (package "6N137")
+   (attribute "Datasheet Link" "https://docs.broadcom.com/doc/Very-High-CMR-Wide-VCC-Logic-Gate-Optocouplers-DS")
+   (attribute "Geometry.Height" "4.455mm")
+   (attribute "Manufacturer_Name" "Avago Technologies")
+   (attribute "Manufacturer_Part_Number" "HCPL-2211-300E")
+   (attribute "Mouser Part Number" "630-HCPL-2211-300E")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HCPL-2211-300E?qs=xnajaXqBF9%252BPSYdymxWXoA%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "HCPL-2211-300E")
+    (pin "NC_1" 1 PS)
+    (pin "ANODE" 2 PS)
+    (pin "CATHODE" 3 PS)
+    (pin "NC_2" 4 PS)
+    (pin "GND" 5 PS)
+    (pin "NC_3" 6 PS)
+    (pin "VO" 7 PS)
+    (pin "VCC" 8 PS)
+   )
+  )
+  (symbol "HCPL-2211-300E"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "6N137"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.825 3.175)
+      (pt 4.825 3.175)
+      (pt 4.825 -3.175)
+      (pt -4.825 -3.175)
+      (pt -4.825 3.175))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.825 6.45)
+      (pt 5.825 6.45)
+      (pt 5.825 -6.45)
+      (pt -5.825 -6.45)
+      (pt -5.825 6.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.81 -5.9)
+      (arc (pt -3.810 -5.900) (pt -3.860 -5.900) (pt -3.760 -5.800) (start 180.0) (sweep -90.0))
+      (pt -3.81 -5.8)
+      (arc (pt -3.810 -5.800) (pt -3.860 -5.900) (pt -3.760 -5.800) (start 180.0) (sweep 90.0))
+      (pt -3.81 -5.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.825 3.175)
+      (pt -4.825 -3.175))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 4.825 3.175)
+      (pt 4.825 -3.175))))
+   (leg 1 (pt -3.810 -4.450) (padstack 0))
+   (leg 2 (pt -1.270 -4.450) (padstack 2))
+   (leg 3 (pt 1.270 -4.450) (padstack 3))
+   (leg 4 (pt 3.810 -4.450) (padstack 0))
+   (leg 5 (pt 3.810 4.450) (padstack 0))
+   (leg 6 (pt 1.270 4.450) (padstack 6))
+   (leg 7 (pt -1.270 4.450) (padstack 7))
+   (leg 8 (pt -3.810 4.450) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.016 2.000 0 0 90.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 1.270 2.000 0 0 90.000))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (rectf 1.270 2.000 0 0 90.000))
+   )
+   (padstack 6
+    (plated false)
+    (pad (layer TCOP) (rectf 1.270 2.000 0 0 90.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 1.270 2.000 0 0 90.000))
+   )
+  )
+ )
+)

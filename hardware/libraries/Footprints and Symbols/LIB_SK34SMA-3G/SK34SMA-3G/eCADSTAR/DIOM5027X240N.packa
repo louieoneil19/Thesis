@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SK34SMA-3G"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-07-19-08:44:06)
+    (mountForm default
+        (footprintRef "DIOM5027X240N")
+        (spec "System")
+    )
+)

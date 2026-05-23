@@ -1,0 +1,9 @@
+Manufacturer=Avago Technologies
+PartNumber=HCPL-2211-300E
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=8
+Version=1.3
+Released=2021-03-24 12:22:44
+Downloaded=2026-04-10 02:40:45
+3D=N

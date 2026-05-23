@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AGC0603X7R250-105KXP"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-09-24-12:40:40)
+    (mountForm default
+        (footprintRef "CAPC1608X95N")
+        (spec "System")
+    )
+)

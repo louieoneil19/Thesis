@@ -1,0 +1,9 @@
+Manufacturer=Diotec
+PartNumber=SK34SMA-3G
+PartCategory=Schottky Diode
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=1.1
+Released=2022-07-19 08:44:06
+Downloaded=2026-03-08 10:32:03
+3D=Y

@@ -1,0 +1,18 @@
+.SK34SMA-3G :1 ;Schottky Diodes & Rectifiers Schottky Diode, SMA, 40V, 3A
+DIOM5027X240N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN SK34SMA-3G
+~!Manufacturer_Name (Diotec)
+~!Manufacturer_Part_Number (SK34SMA-3G)
+~!Mouser Part Number (637-SK34SMA-3G)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/SK34SMA-3G?qs=OlC7AqGiEDkrZWGTiN%2FPpg%3D%3D)
+~!Arrow Part Number (SK34SMA-3G)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/sk34sma-3g/diotec-semiconductor-ag?region=europe)
+~!Link Datasheet (https://diotec.com/request/datasheet/sk34sma-3g.pdf)
+~!Height (2.4mm)
+~!3D_Model (SK34SMA-3G)
+SK34SMA-3G
+1.1!U 2.1!U 

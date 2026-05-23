@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GRM033R6YA104KE14D
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 0201 0.10uF 35volts *Derate Voltage/Temp
+K
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R6YA104KE14-01A.pdf
+$ENDCMP
+#
+#End Doc Library

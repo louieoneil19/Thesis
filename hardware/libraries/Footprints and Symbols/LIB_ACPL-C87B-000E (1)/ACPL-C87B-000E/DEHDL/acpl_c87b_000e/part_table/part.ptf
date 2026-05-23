@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ACPL_C87B_000E'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ELEMENT14_PART_NUMBER", "ELEMENT14_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Avago Technologies", "ACPL-C87B-000E" (!) = "", "SOIC127P1150X331-8N", "Small Outline Packages", "", "", "Optically isolated voltage sensor,SSO8 Broadcom ACPL-C87B-000E, Isolation Amplifier, 4.5  5.5 V, 8-Pin SSO", "https://componentsearchengine.com/Datasheets/2/ACPL-C87B-000E.pdf", "3.307 mm"
+END_PART
+
+END.

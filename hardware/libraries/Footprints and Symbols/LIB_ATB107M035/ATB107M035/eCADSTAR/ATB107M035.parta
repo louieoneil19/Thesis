@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_17574306"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-02-20-03:43:25)
+    (utime 2025-02-20-03:43:25)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "ATB107M035")
+)
+
+
+(pinAssign "ECS_17574306"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-02-20-03:43:25)
+    (utime 2025-02-20-03:43:25)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_17574306")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "ATB107M035")
+)
+
+
+(part "ATB107M035"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-02-20-03:43:25)
+    (utime 2025-02-20-03:43:25)
+    (packageRef "ATB107M035")
+    (pinAssignRef "ECS_17574306")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Aluminum Electrolytic Capacitors - SMD 35VDC 100uF 20% 420mA a. 120Hz")
+    (property "Manufacturer_Name" "Cornell Dubilier")
+    (property "Manufacturer_Part_Number" "ATB107M035")
+    (property "Mouser_Part_Number" "598-ATB107M035")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/ATB107M035?qs=lc2O%252BfHJPVYF0CZ2fG%252BHrg%3D%3D")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.cde.com/resources/catalogs/ATB.pdf")
+    (property "compAreaTopHeight" 8)
+)
+
+

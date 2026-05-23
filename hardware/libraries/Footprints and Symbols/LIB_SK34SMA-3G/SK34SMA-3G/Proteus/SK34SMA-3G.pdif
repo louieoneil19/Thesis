@@ -1,0 +1,127 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SK34SMA-3G"
+   (description "Schottky Diodes & Rectifiers Schottky Diode, SMA, 40V, 3A")
+   (family "DIO")
+   (package "DIOM5027X240N")
+   (attribute "Datasheet Link" "https://diotec.com/request/datasheet/sk34sma-3g.pdf")
+   (attribute "Geometry.Height" "2.4mm")
+   (attribute "Manufacturer_Name" "Diotec")
+   (attribute "Manufacturer_Part_Number" "SK34SMA-3G")
+   (attribute "Mouser Part Number" "637-SK34SMA-3G")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/SK34SMA-3G?qs=OlC7AqGiEDkrZWGTiN%2FPpg%3D%3D")
+   (attribute "Arrow Part Number" "SK34SMA-3G")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/sk34sma-3g/diotec-semiconductor-ag?region=europe")
+   (gate
+    (symbol "SK34SMA-3G")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "SK34SMA-3G"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 340 100) (pt 340 60))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 -100) (pt 260 -100) (pt 260 -60))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 500 0) (pt 600 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 300 0) (pt 500 100) (pt 500 -100) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 100 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DIOM5027X240N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.35 1.7)
+      (pt 3.35 1.7)
+      (pt 3.35 -1.7)
+      (pt -3.35 -1.7)
+      (pt -3.35 1.7))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.5 1.35)
+      (pt 2.5 1.35)
+      (pt 2.5 -1.35)
+      (pt -2.5 -1.35)
+      (pt -2.5 1.35))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.5 0.575)
+      (pt -1.725 1.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.5 1.35)
+      (pt -2.875 1.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.5 -1.35)
+      (pt 2.5 -1.35))))
+   (leg 1 (pt -2.1 0) (padstack 0))
+   (leg 2 (pt 2.1 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.55 2 0 0 0))
+   )
+   (model "SK34SMA-3G.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

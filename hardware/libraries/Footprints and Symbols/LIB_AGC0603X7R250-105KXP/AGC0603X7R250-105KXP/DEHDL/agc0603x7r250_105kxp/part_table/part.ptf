@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AGC0603X7R250_105KXP'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Venkel", "AGC0603X7R250-105KXP" (!) = "", "CAPC1608X95N", "Capacitor Chip Non-polarised", "", "", "", "", "1 F +/-10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)", "https://g.componentsearchengine.com/Datasheets/0/20899965.pdf", "0.95 mm"
+END_PART
+
+END.

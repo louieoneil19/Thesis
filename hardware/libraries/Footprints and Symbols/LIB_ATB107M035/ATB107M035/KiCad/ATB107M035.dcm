@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATB107M035
+D Aluminum Electrolytic Capacitors - SMD 35VDC 100uF 20% 420mA a. 120Hz
+K
+F https://www.cde.com/resources/catalogs/ATB.pdf
+$ENDCMP
+#
+#End Doc Library

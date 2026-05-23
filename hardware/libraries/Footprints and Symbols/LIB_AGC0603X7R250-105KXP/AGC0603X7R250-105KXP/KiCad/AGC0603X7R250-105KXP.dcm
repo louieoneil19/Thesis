@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AGC0603X7R250-105KXP
+D 1 F +/-10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)
+K
+F https://g.componentsearchengine.com/Datasheets/0/20899965.pdf
+$ENDCMP
+#
+#End Doc Library

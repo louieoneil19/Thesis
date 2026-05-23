@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SK34SMA-3G
+D Schottky Diodes & Rectifiers Schottky Diode, SMA, 40V, 3A
+K
+F https://diotec.com/request/datasheet/sk34sma-3g.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Avago Technologies
+PartNumber=ACPL-C87B-000E
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2018-03-27 12:43:13
+Downloaded=2026-03-09 09:08:57
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=Cornell Dubilier
+PartNumber=ATB107M035
+PartCategory=Capacitor
+PackageCategory=Capacitor Al Electrolytic
+PinCount=2
+Version=1.1
+Released=2025-02-20 03:43:25
+Downloaded=2026-03-08 08:44:42
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HCPL-2211-300E
+D Broadcom, HCPL-2211-300E DC Input Logic Gate Output Optocoupler, Surface Mount, 8-Pin DIP
+K
+F https://docs.broadcom.com/doc/Very-High-CMR-Wide-VCC-Logic-Gate-Optocouplers-DS
+$ENDCMP
+#
+#End Doc Library

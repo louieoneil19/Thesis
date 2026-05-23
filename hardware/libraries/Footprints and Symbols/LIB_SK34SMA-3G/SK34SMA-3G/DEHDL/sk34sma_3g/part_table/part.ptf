@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SK34SMA_3G'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diotec", "SK34SMA-3G" (!) = "", "DIOM5027X240N", "Diodes Moulded", "637-SK34SMA-3G", "https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/SK34SMA-3G?qs=OlC7AqGiEDkrZWGTiN%2FPpg%3D%3D", "SK34SMA-3G", "https://www.arrow.com/en/products/sk34sma-3g/diotec-semiconductor-ag?region=europe", "Schottky Diodes & Rectifiers Schottky Diode, SMA, 40V, 3A", "https://diotec.com/request/datasheet/sk34sma-3g.pdf", "2.4 mm"
+END_PART
+
+END.

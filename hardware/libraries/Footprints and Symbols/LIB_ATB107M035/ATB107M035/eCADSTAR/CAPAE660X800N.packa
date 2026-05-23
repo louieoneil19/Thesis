@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ATB107M035"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-03-27-06:39:18)
+    (mountForm default
+        (footprintRef "CAPAE660X800N")
+        (spec "System")
+    )
+)

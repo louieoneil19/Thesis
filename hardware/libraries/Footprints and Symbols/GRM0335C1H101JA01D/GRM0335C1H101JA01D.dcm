@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GRM0335C1H101JA01D
+D Murata 0201 GRM 100pF Ceramic Multilayer Capacitor, 50 V, +125C, C0G Dielectric, +/-5% SMD
+K
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1H101JA01-01A.pdf
+$ENDCMP
+#
+#End Doc Library

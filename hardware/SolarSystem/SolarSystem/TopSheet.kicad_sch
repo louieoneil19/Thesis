@@ -1,0 +1,3890 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f72ee98d-e439-4335-b2ba-b0b66e844c17")
+	(paper "A4")
+	(title_block
+		(title "Solar System")
+		(date "2026-03-05")
+		(rev "0")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 179.07 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8018ed6d-60f7-4348-a90d-d9adc8c1e6fb")
+	)
+	(junction
+		(at 31.75 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e550b711-3954-4b8e-a3f7-a5ff387e4d10")
+	)
+	(junction
+		(at 31.75 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec3ed6b2-576d-44e6-9f12-9ee9ad53e2ac")
+	)
+	(wire
+		(pts
+			(xy 137.16 95.25) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "012ee007-7ae3-4a6a-be37-121229692483")
+	)
+	(wire
+		(pts
+			(xy 101.6 130.81) (xy 114.3 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d210f7-0075-40a8-8d27-5d71a36e35ac")
+	)
+	(wire
+		(pts
+			(xy 58.42 45.72) (xy 71.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0609d804-dcc3-41f0-817a-c585ad2b1b78")
+	)
+	(wire
+		(pts
+			(xy 24.13 139.7) (xy 36.83 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a39649-fc40-4177-955d-af78804b1efd")
+	)
+	(wire
+		(pts
+			(xy 127 177.8) (xy 127 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff747f2-19d5-4be3-8a5c-43542b5b54bf")
+	)
+	(wire
+		(pts
+			(xy 133.35 138.43) (xy 139.7 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a98850-e9eb-4397-b12b-e3564b7083ea")
+	)
+	(wire
+		(pts
+			(xy 233.68 127) (xy 257.81 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11fee592-beac-4e26-8aeb-95f6dfeae250")
+	)
+	(wire
+		(pts
+			(xy 90.17 165.1) (xy 93.98 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a5ba0c-1eaa-41c6-b0c2-792679361c5d")
+	)
+	(wire
+		(pts
+			(xy 82.55 88.9) (xy 102.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dea189c-1a0e-4677-98d1-7849efaf4591")
+	)
+	(wire
+		(pts
+			(xy 137.16 82.55) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e031913-ee60-4268-bf02-c1bb7487b6da")
+	)
+	(wire
+		(pts
+			(xy 231.14 58.42) (xy 231.14 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3192350e-1eb1-4fac-b763-ae3449b9cc03")
+	)
+	(wire
+		(pts
+			(xy 101.6 134.62) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326a5930-632d-4320-b453-7e6242a5c53b")
+	)
+	(wire
+		(pts
+			(xy 115.57 161.29) (xy 115.57 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c0d227-193c-4b99-ba5c-ba50ce876160")
+	)
+	(wire
+		(pts
+			(xy 31.75 24.13) (xy 31.75 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3735d552-835e-4b54-9900-a13073298be0")
+	)
+	(wire
+		(pts
+			(xy 36.83 78.74) (xy 31.75 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b0b527-d79f-4e79-87c0-f9deea44289e")
+	)
+	(wire
+		(pts
+			(xy 203.2 81.28) (xy 218.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9b64d0-4750-488d-a791-437301080398")
+	)
+	(wire
+		(pts
+			(xy 66.04 146.05) (xy 76.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d682dfe-dfc5-4fdc-8505-0df53a793987")
+	)
+	(wire
+		(pts
+			(xy 93.98 153.67) (xy 82.55 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd9a1e7-6611-4824-890f-a1f8e561efca")
+	)
+	(wire
+		(pts
+			(xy 130.81 165.1) (xy 134.62 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e53e77b-d838-4537-899c-3474d0f1c81f")
+	)
+	(wire
+		(pts
+			(xy 93.98 161.29) (xy 82.55 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42649d18-c0f1-4934-82e1-7d49035376f2")
+	)
+	(wire
+		(pts
+			(xy 157.48 45.72) (xy 170.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "447d53e4-d074-499c-bb5b-c5b5906bc8ee")
+	)
+	(wire
+		(pts
+			(xy 101.6 138.43) (xy 114.3 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45234cbf-d83f-48b4-ab05-99820d7381c4")
+	)
+	(wire
+		(pts
+			(xy 146.05 177.8) (xy 146.05 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d1e1a6-c42d-4515-9efa-6fa6deabd3ee")
+	)
+	(wire
+		(pts
+			(xy 25.4 132.08) (xy 36.83 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f701ea-998d-43b1-837d-2022218d915c")
+	)
+	(wire
+		(pts
+			(xy 113.03 161.29) (xy 115.57 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a730c7a-0fda-45b6-b753-a81055fdcebe")
+	)
+	(wire
+		(pts
+			(xy 151.13 38.1) (xy 170.18 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af3f55c-c990-4aad-a3f7-e0218e9aa1a7")
+	)
+	(wire
+		(pts
+			(xy 153.67 157.48) (xy 158.75 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c70a79f-63e8-40a1-8c17-d5e0d94d06c7")
+	)
+	(wire
+		(pts
+			(xy 252.73 87.63) (xy 266.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2b802b-94ae-4db0-bef6-3c593ce157a5")
+	)
+	(wire
+		(pts
+			(xy 91.44 40.64) (xy 104.14 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e4d655-5972-4168-947b-cb3005263cf4")
+	)
+	(wire
+		(pts
+			(xy 171.45 104.14) (xy 179.07 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53bde208-ab2b-4006-a504-1d9c1fcb92c1")
+	)
+	(wire
+		(pts
+			(xy 91.44 30.48) (xy 104.14 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ddc2bb-ba65-449a-ad8c-62398ff9bb96")
+	)
+	(wire
+		(pts
+			(xy 39.37 24.13) (xy 31.75 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558c6deb-e8d7-48b8-a0f8-df2e4da76123")
+	)
+	(wire
+		(pts
+			(xy 31.75 95.25) (xy 41.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "563ef3d8-43cb-4ac2-ac53-d28b986af3fb")
+	)
+	(wire
+		(pts
+			(xy 124.46 161.29) (xy 134.62 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5798a85d-9fa9-4cb7-91ac-4a341739385a")
+	)
+	(wire
+		(pts
+			(xy 114.3 177.8) (xy 114.3 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c37242d-a9e3-45c9-b5ba-948a3bf8e870")
+	)
+	(wire
+		(pts
+			(xy 66.04 132.08) (xy 76.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622cfb6a-95e8-4a0c-9b1c-557b242a1048")
+	)
+	(wire
+		(pts
+			(xy 121.92 157.48) (xy 121.92 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6874ec9a-6781-46b5-9159-51d5e574ed12")
+	)
+	(wire
+		(pts
+			(xy 241.3 138.43) (xy 257.81 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688a546f-9af9-4194-9663-80b803a4a404")
+	)
+	(wire
+		(pts
+			(xy 82.55 95.25) (xy 102.87 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b127c0-0ba5-4169-8dcb-94e740431033")
+	)
+	(wire
+		(pts
+			(xy 58.42 38.1) (xy 71.12 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ad1c61-72a2-442a-8745-75689c3d7b4c")
+	)
+	(wire
+		(pts
+			(xy 17.78 161.29) (xy 36.83 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77fa919a-5182-48af-aff3-ad5f70734d5c")
+	)
+	(wire
+		(pts
+			(xy 113.03 157.48) (xy 121.92 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab27290-9795-4ac2-bc96-7201599c9984")
+	)
+	(wire
+		(pts
+			(xy 170.18 30.48) (xy 151.13 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cfc9f90-99f6-49ff-b4d0-78c027d34430")
+	)
+	(wire
+		(pts
+			(xy 31.75 33.02) (xy 38.1 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e647361-e431-4fbe-954c-d7f0c6d1ca2a")
+	)
+	(wire
+		(pts
+			(xy 82.55 101.6) (xy 102.87 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f490f3-9e26-4eae-aa9d-63c3691b5a33")
+	)
+	(wire
+		(pts
+			(xy 241.3 58.42) (xy 241.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83be1b1c-e3f1-49cc-b1bb-957b06d02613")
+	)
+	(wire
+		(pts
+			(xy 124.46 157.48) (xy 134.62 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85dba37f-c5e8-4e9f-9c78-4109261577b4")
+	)
+	(wire
+		(pts
+			(xy 95.25 177.8) (xy 95.25 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87297ed3-b04d-48bd-a2bd-c5ddea1e1d36")
+	)
+	(wire
+		(pts
+			(xy 52.07 30.48) (xy 71.12 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c59a90e-4d47-4474-a71d-369110d3948e")
+	)
+	(wire
+		(pts
+			(xy 107.95 142.24) (xy 114.3 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fee0de6-b9dd-4395-b0a3-f8f06bf90c8f")
+	)
+	(wire
+		(pts
+			(xy 20.32 148.59) (xy 36.83 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9140d47c-e586-4cad-a47a-4d45c55048b8")
+	)
+	(wire
+		(pts
+			(xy 36.83 76.2) (xy 36.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92217905-8d8e-41b0-98e9-9aee22f1afb1")
+	)
+	(wire
+		(pts
+			(xy 91.44 45.72) (xy 104.14 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9acac933-3d6e-49a8-b2dd-6c8e4493ef43")
+	)
+	(wire
+		(pts
+			(xy 31.75 21.59) (xy 38.1 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b660f73-bb79-4312-82d9-f810375d0752")
+	)
+	(wire
+		(pts
+			(xy 133.35 134.62) (xy 139.7 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f03f6d1-57ff-434d-917d-a04c80c1131d")
+	)
+	(wire
+		(pts
+			(xy 171.45 116.84) (xy 179.07 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a7b8a2-2892-4f01-8bed-5c784efd03b1")
+	)
+	(wire
+		(pts
+			(xy 124.46 153.67) (xy 134.62 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2803478-ba22-4041-a129-f8e421c57126")
+	)
+	(wire
+		(pts
+			(xy 91.44 35.56) (xy 104.14 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6dcef8a-6826-4be1-968a-52a44c5da824")
+	)
+	(wire
+		(pts
+			(xy 82.55 82.55) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b139fbb9-26b1-4fac-a8a8-6993748cc706")
+	)
+	(wire
+		(pts
+			(xy 82.55 177.8) (xy 82.55 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b95f7779-370a-431e-b040-6fd2e1e2831a")
+	)
+	(wire
+		(pts
+			(xy 82.55 76.2) (xy 102.87 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a67786-abd2-46bc-9e8c-f6c5dd0ffbe6")
+	)
+	(wire
+		(pts
+			(xy 20.32 170.18) (xy 20.32 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3df2abe-79d7-4196-a193-7ded395500cf")
+	)
+	(wire
+		(pts
+			(xy 203.2 93.98) (xy 218.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55c354e-02d2-421d-9205-63b4f826c2d4")
+	)
+	(wire
+		(pts
+			(xy 36.83 154.94) (xy 20.32 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79b3ab9-4616-4e37-a268-545cc2e30f5a")
+	)
+	(wire
+		(pts
+			(xy 153.67 161.29) (xy 158.75 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6b789d-9822-4ea6-b462-183fb9d3da50")
+	)
+	(wire
+		(pts
+			(xy 20.32 154.94) (xy 20.32 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0659c75-bca0-4533-a2d3-ed1743a931e1")
+	)
+	(wire
+		(pts
+			(xy 93.98 157.48) (xy 82.55 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12333ae-6558-463e-86f5-a90be7ee58d7")
+	)
+	(wire
+		(pts
+			(xy 179.07 99.06) (xy 179.07 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d164dfb6-5fa9-467b-a532-9521ce784fba")
+	)
+	(wire
+		(pts
+			(xy 158.75 177.8) (xy 158.75 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d859b1b9-5a4c-4f67-8e47-931392be7c35")
+	)
+	(wire
+		(pts
+			(xy 17.78 163.83) (xy 17.78 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c9b883-b46e-47d2-a78d-db3498c523a7")
+	)
+	(wire
+		(pts
+			(xy 31.75 78.74) (xy 31.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1091897-b5a4-4a6b-9837-0e83ccff4560")
+	)
+	(wire
+		(pts
+			(xy 121.92 172.72) (xy 125.73 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e647a5-4309-475a-b866-a0daa8f79c5c")
+	)
+	(wire
+		(pts
+			(xy 190.5 34.29) (xy 204.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47cc63b-6aec-417e-ad0a-22c992d368a1")
+	)
+	(wire
+		(pts
+			(xy 20.32 167.64) (xy 36.83 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53a3597-ac21-4d6a-8fee-6f461d3c1a1e")
+	)
+	(wire
+		(pts
+			(xy 190.5 41.91) (xy 205.74 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99af361-9502-4c29-b6b1-464769c14e71")
+	)
+	(wire
+		(pts
+			(xy 31.75 82.55) (xy 41.91 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd002e64-c954-46d7-b04e-aa8d97c59950")
+	)
+	(wire
+		(pts
+			(xy 21.59 175.26) (xy 36.83 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0aaf84-9272-4fa4-888f-b99789563dc5")
+	)
+	(label "M1_Sig"
+		(at 82.55 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15b3867b-c65a-4e5c-b74a-de7cc9fef2cd")
+	)
+	(label "M3_Gate"
+		(at 231.14 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b4e07be-a55d-4dea-bbf8-8e6f7dda9c1c")
+	)
+	(label "PV_Voltage_Out-"
+		(at 104.14 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e848d38-d938-4377-9334-4584022b2a2f")
+	)
+	(label "M3_Source"
+		(at 158.75 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24258939-0da6-4ba1-ab8f-4ad80024ec49")
+	)
+	(label "M2_Sig"
+		(at 101.6 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "244760a7-c8b9-412c-a6e5-da8ac28634ab")
+	)
+	(label "PV_Voltage_Out+"
+		(at 104.14 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d48a7ba-07c0-4aa6-9bc1-08b8d6657b2b")
+	)
+	(label "V_M3-"
+		(at 124.46 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e818808-9242-4f89-9813-c89ba90c752f")
+	)
+	(label "V_M1-"
+		(at 95.25 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ca46a6f-9468-4000-b654-845849c77740")
+	)
+	(label "M1_Sig"
+		(at 24.13 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cb727dd-c25d-493e-8b5d-73422f48cc96")
+	)
+	(label "VDD2"
+		(at 21.59 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ed75ed4-f34f-4b3e-8239-336c9901504a")
+	)
+	(label "V_M3-"
+		(at 158.75 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48efbeaf-6f0e-48e0-b171-0644caccc49e")
+	)
+	(label "Pump_Voltage"
+		(at 266.7 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b0bd79d-ee11-447e-b77e-22b25bc071d2")
+	)
+	(label "V_M3+"
+		(at 146.05 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54dbef54-69f1-428f-a5ff-ed9d7cce8401")
+	)
+	(label "PV_Current"
+		(at 20.32 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ffa1316-6e26-4ce3-a8b8-ddc8c192d185")
+	)
+	(label "V_M1+"
+		(at 82.55 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61aefce0-f046-4b2e-9a73-a83cc8450cf2")
+	)
+	(label "PV_Current"
+		(at 151.13 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6aa69b22-a0e1-4d79-a75e-e9015c6ca40c")
+	)
+	(label "M3_Source"
+		(at 241.3 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b532505-cdcc-458f-ac5c-92f224201e3d")
+	)
+	(label "M3_Sig"
+		(at 124.46 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d50705d-aaa8-4163-b70e-8f02371b0473")
+	)
+	(label "V_M3+"
+		(at 124.46 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f439b9d-3df5-4754-b3aa-8d3f0ae044ff")
+	)
+	(label "M2_Source"
+		(at 82.55 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72533f81-770e-40c9-a429-33d7c292b616")
+	)
+	(label "V_M1-"
+		(at 82.55 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75d73072-d962-4bff-9b79-dd609fdea859")
+	)
+	(label "M1_Source"
+		(at 82.55 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e7e913d-4aed-4327-bb1d-8f215e76dbfe")
+	)
+	(label "M1_Gate"
+		(at 115.57 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "850ae6a1-f381-40ed-87e5-80e342c82477")
+	)
+	(label "M1_Source"
+		(at 125.73 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "862270b0-e225-41f1-817e-488d1c26360a")
+	)
+	(label "VDD2"
+		(at 104.14 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "986efc5b-1081-4547-847c-2c25a74eb015")
+	)
+	(label "V_M2-"
+		(at 127 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a484c78-4560-403d-8122-9f0d5a1c130f")
+	)
+	(label "M3_Gate"
+		(at 158.75 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f547822-37ab-495a-896d-83936a53b3e7")
+	)
+	(label "Pump_Voltage"
+		(at 233.68 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aae55ceb-bb1c-4f0c-a464-3917ba9b0cd1")
+	)
+	(label "PV_Voltage_Out-"
+		(at 17.78 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b306dd4f-d187-4391-931a-9bd3742893e0")
+	)
+	(label "M1_Gate"
+		(at 82.55 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9426268-fdf5-443a-bac9-6f65684a2141")
+	)
+	(label "M2_Source"
+		(at 139.7 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9867e2c-2c62-4237-b6c3-00359658fb79")
+	)
+	(label "VDD1"
+		(at 38.1 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be299355-3ad4-45d4-8022-7f332c6936f2")
+	)
+	(label "V_M2-"
+		(at 101.6 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c58b76ec-712d-4e54-9387-539965d88336")
+	)
+	(label "VCC"
+		(at 25.4 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c87f9706-6191-49f8-bfea-f33e23a53c69")
+	)
+	(label "M3_Sig"
+		(at 76.2 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d22e7c90-2a43-4f0e-a4f3-5605bfba1335")
+	)
+	(label "M2_Gate"
+		(at 82.55 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2645b81-4b4c-4527-8224-ab66c526b2c9")
+	)
+	(label "VDD1"
+		(at 52.07 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6309bfb-78fd-4394-ae25-4565ce95e015")
+	)
+	(label "M2_Gate"
+		(at 139.7 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d646ee0d-4fdf-4ffe-97bc-9f2b28d65c02")
+	)
+	(label "PV_Voltage_Out+"
+		(at 20.32 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de20ab58-729c-4d14-ae35-806dab1aa0e3")
+	)
+	(label "V_M2+"
+		(at 114.3 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0e9040e-9de7-4cd4-8766-5efc77366ac4")
+	)
+	(label "PV_IN"
+		(at 205.74 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7d5a45c-c45d-4fb4-b1f8-aaad49e141e6")
+	)
+	(label "V_M1+"
+		(at 82.55 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9f07e23-528c-4286-a00a-3599aa35db6e")
+	)
+	(label "PV_IN"
+		(at 82.55 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0581860-46b8-455c-a6d4-d21c5d94c7da")
+	)
+	(label "V_M2+"
+		(at 101.6 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3c1cb26-8bd8-4dbb-bb0e-4774f4f26d8c")
+	)
+	(label "VCC"
+		(at 151.13 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f47ca0f2-0061-4b89-9339-dbbedf292b0a")
+	)
+	(label "M2_Sig"
+		(at 20.32 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdcd2bd5-fc38-4443-bc15-378e2399c596")
+	)
+	(global_label "AGND"
+		(shape input)
+		(at 90.17 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e0d3627-3444-48e7-8d54-0df20605269a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.2257 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AGND"
+		(shape input)
+		(at 157.48 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1dea635a-77d0-4da6-b540-0d1d529b59f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.5357 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PGND"
+		(shape input)
+		(at 203.2 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20ef6291-8bb6-4eb0-b543-21e8866b792b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.0743 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PV+"
+		(shape input)
+		(at 41.91 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25ce16f0-a743-4834-b1ca-e333f0c92093")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.8262 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT+"
+		(shape input)
+		(at 203.2 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32c9fd60-b57c-4649-abd1-76e668e16230")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.3162 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AGND"
+		(shape input)
+		(at 76.2 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f519b74-cfd5-4f17-b952-04e86fd67c4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.1443 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PV+"
+		(shape input)
+		(at 58.42 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "515fa7ef-db19-4a0e-ab86-f7a7a57ae026")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.5038 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT+"
+		(shape input)
+		(at 171.45 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c1cd700-6ebb-44f8-9599-085f17781d6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.5662 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PGND"
+		(shape input)
+		(at 171.45 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7102cf07-2948-4b98-8a4d-59ef84a802a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.3243 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT+"
+		(shape input)
+		(at 152.4 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bbcb521-463c-451a-807f-bf27c4ef5f88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.2838 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PGND"
+		(shape input)
+		(at 152.4 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c99bc35-3db8-4e5f-bb29-e8c7903790d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.5257 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PGND"
+		(shape input)
+		(at 241.3 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e3a478a-37b5-41ca-b689-3b44b2cd59b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.1743 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PGND"
+		(shape input)
+		(at 41.91 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a33880d5-f3cc-4ef7-9eb7-de67891d4fec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0357 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PGND"
+		(shape input)
+		(at 38.1 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "def1af75-ac9a-43c7-ad68-66742f44bb84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.2257 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AGND"
+		(shape input)
+		(at 104.14 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed8e8e37-ee81-41ac-af05-34566e868c5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.0843 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AGND"
+		(shape input)
+		(at 130.81 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "edc2b903-8631-4f6e-a5ca-54ee61270391")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.8657 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PGND"
+		(shape input)
+		(at 58.42 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f88bd9a8-f8a1-4aab-949d-69c354b4c7ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.2943 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AGND"
+		(shape input)
+		(at 107.95 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb623d2e-40d2-4b10-8fad-4af8d03285c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.0057 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PV+"
+		(shape input)
+		(at 204.47 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb8b78a2-cc47-4204-85ba-9cf2d0064354")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.3862 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 179.07 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20d2c2d0-b828-4a06-932e-a2a74f54d2fa")
+		(property "Reference" "#FLG05"
+			(at 179.07 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 179.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 179.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6899a6d-1bbe-420e-acdd-453ddd82882f")
+		)
+		(instances
+			(project ""
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 262.89 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f4ee114-5ce7-4b44-8c7f-7c8e0a5fe99c")
+		(property "Reference" "J_Pump+1"
+			(at 265.43 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 265.43 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e54b0cc-dcc0-445e-8cff-6a2d9f155c10")
+		)
+		(instances
+			(project ""
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "J_Pump+1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 82.55 190.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50d7dce7-c1ef-4d6c-ad77-a655a1d41417")
+		(property "Reference" "J_M1+1"
+			(at 85.09 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 85.09 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 82.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 82.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f87eaa33-676f-47ff-8b63-dbcb3834aa1d")
+		)
+		(instances
+			(project ""
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "J_M1+1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 26.67 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73348fee-21c7-4d0f-a497-85b2cf837d83")
+		(property "Reference" "J_PV+1"
+			(at 26.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 24.13 81.2801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 26.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d83f96b1-93cd-4642-b1c0-69509da28f26")
+		)
+		(instances
+			(project ""
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "J_PV+1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 184.15 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7795ce95-c365-4e40-846d-1a5a20bbd98a")
+		(property "Reference" "J_BAT-1"
+			(at 186.69 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 186.69 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 184.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 184.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a66beb42-2916-4d99-9379-92176e956e44")
+		)
+		(instances
+			(project ""
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "J_BAT-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 158.75 190.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8220f263-b229-4edb-b8b8-7f2e3e6e4304")
+		(property "Reference" "J_M3-1"
+			(at 161.29 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 161.29 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 158.75 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "447035ec-b1ea-4b49-99c2-01984084deac")
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "J_M3-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 26.67 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bc4bbc1-923e-4bd2-97ef-4280dde3fec9")
+		(property "Reference" "J_VDD1+1"
+			(at 26.67 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 26.67 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 26.67 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13c93259-70f1-46a4-b9c0-9967ca7f6c23")
+		)
+		(instances
+			(project ""
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "J_VDD1+1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 262.89 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d5435eb-9f88-4e72-bf4f-2a30c6a40be3")
+		(property "Reference" "J_Pump-1"
+			(at 265.43 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 265.43 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 262.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 262.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63248457-9885-4bbd-9785-ca28a8f04283")
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "J_Pump-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 95.25 190.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98d4a95d-6ef3-43b5-b3c4-8769f6c7a714")
+		(property "Reference" "J_M1-1"
+			(at 97.79 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 97.79 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 95.25 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 95.25 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "091a96e6-5b24-4a87-ae25-c6fcdc1cbd1b")
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "J_M1-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 26.67 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7dc33ea-98ef-4849-a18f-0e738c547cf5")
+		(property "Reference" "J_VDD1-1"
+			(at 26.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 26.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 26.67 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0d9ada4-8f3d-4fe8-baba-af10728b41cf")
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "J_VDD1-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 127 190.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b984570b-bd5a-4b37-8cfa-2bc10a29b41a")
+		(property "Reference" "J_M2-1"
+			(at 129.54 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 129.54 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 127 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 127 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "187cf409-3db5-4816-ac78-08529a80ceaf")
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "J_M2-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 184.15 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c79df902-16ba-439a-80c6-278ce1900e52")
+		(property "Reference" "J_BAT+1"
+			(at 186.69 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 186.69 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 184.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 184.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4a0e362-990f-4579-9da1-a0fde19c4ce8")
+		)
+		(instances
+			(project ""
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "J_BAT+1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 36.83 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf8a3406-1aa8-4c1e-8d69-0fe7c9a8eb42")
+		(property "Reference" "#FLG02"
+			(at 36.83 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 36.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 36.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c73df98-0249-4150-8155-5e1cbb430910")
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 26.67 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1e7d14d-378f-44b8-a0f8-64274dd3e1c2")
+		(property "Reference" "J_PV-1"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 24.13 93.9801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 26.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35d6988c-2375-49ce-b987-d9f481b03e17")
+		)
+		(instances
+			(project ""
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "J_PV-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 146.05 190.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d468121e-7942-4614-9f52-09b9119521f0")
+		(property "Reference" "J_M3+1"
+			(at 148.59 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 148.59 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 146.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 146.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "268af315-f755-4c47-8aa8-d21a819891e4")
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "J_M3+1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 39.37 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de99e185-295d-408c-be29-13fce56f325e")
+		(property "Reference" "#FLG03"
+			(at 39.37 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 39.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 39.37 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6471f26-a0d6-4d48-bafb-2589758f726c")
+		)
+		(instances
+			(project ""
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 114.3 190.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ead0cbd9-e5ab-42c0-bb3b-07dcce8e4bde")
+		(property "Reference" "J_M2+1"
+			(at 116.84 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 116.84 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 114.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 114.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abe5d1d7-6845-4d6b-9209-e8bcfdd22a95")
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(reference "J_M2+1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 149.86)
+		(size 19.05 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "35700d5d-b9d2-4627-a327-83a3f22fee9d")
+		(property "Sheetname" "GateDriver_M1"
+			(at 93.98 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GateDriver.kicad_sch"
+			(at 93.98 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AGND" input
+			(at 93.98 165.1 180)
+			(uuid "7795c882-081d-4f0f-893f-80245ab1bca6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M_Sig" input
+			(at 93.98 153.67 180)
+			(uuid "236ed471-2123-4246-8107-3f1b482c1172")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_M+" input
+			(at 93.98 157.48 180)
+			(uuid "504eb255-5d47-4977-afac-e2f90f9d1b4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_M-" input
+			(at 93.98 161.29 180)
+			(uuid "e39de6d9-4fa3-4256-9f5a-616158fecf04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M_Gate" output
+			(at 113.03 161.29 0)
+			(uuid "bec293ea-6d19-41fd-859d-7ea85b1ba6c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M_Source" output
+			(at 113.03 157.48 0)
+			(uuid "74029ae0-faa8-455b-9c02-48798b3ed993")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 25.4)
+		(size 20.32 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48bdecf3-6be2-4baf-b2a9-b1df8917dde0")
+		(property "Sheetname" "Voltage_Sensor"
+			(at 71.12 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Voltage_Sensor.kicad_sch"
+			(at 71.12 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AGND" input
+			(at 91.44 45.72 0)
+			(uuid "b83303f9-cdc7-4192-8532-c0143e217e1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PV+" input
+			(at 71.12 38.1 180)
+			(uuid "2bc628d5-2ac9-44e2-94da-986167f1750e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD1" input
+			(at 71.12 30.48 180)
+			(uuid "4a09311b-66d2-4ac1-bce3-2dce366d3f1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD2" input
+			(at 91.44 30.48 0)
+			(uuid "7b25724b-2167-4e22-96b5-05740be76821")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PGND" input
+			(at 71.12 45.72 180)
+			(uuid "c446fd4d-5a62-43b8-ad15-55bc2df6ce7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PV_Voltage_Out+" output
+			(at 91.44 35.56 0)
+			(uuid "173441ec-9655-4da4-b546-e33a46017462")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PV_Voltage_Out-" output
+			(at 91.44 40.64 0)
+			(uuid "fb6d63b1-d43e-4c11-9004-422d839f8fd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 25.4)
+		(size 20.32 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a15a180-2f81-4ef6-81a9-4542f3397794")
+		(property "Sheetname" "Current_Sensor"
+			(at 170.18 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Sensor.kicad_sch"
+			(at 170.18 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AGND" input
+			(at 170.18 45.72 180)
+			(uuid "f538609c-972e-4ea1-9d6d-d056afb947a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PV_Current" output
+			(at 170.18 38.1 180)
+			(uuid "b87d56e8-9ef8-405d-8328-40a91dc4ad8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 170.18 30.48 180)
+			(uuid "5f9738d3-0e1b-497f-b7a7-5a12a51465cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PV+" input
+			(at 190.5 34.29 0)
+			(uuid "7dd8878d-2502-4219-b787-4add12bf1ee4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PV_IN" output
+			(at 190.5 41.91 0)
+			(uuid "14280a72-0fed-4cd6-9347-063027971c2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 127)
+		(size 19.05 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a24a5d24-84e0-4725-8cac-70b616fdcf75")
+		(property "Sheetname" "GateDriver_M2"
+			(at 114.3 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GateDriver.kicad_sch"
+			(at 114.3 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AGND" input
+			(at 114.3 142.24 180)
+			(uuid "b946b896-1187-4164-ab7e-16cab8549333")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M_Sig" input
+			(at 114.3 130.81 180)
+			(uuid "e842e3e0-452a-49b9-905b-106cf4d63cb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_M+" input
+			(at 114.3 134.62 180)
+			(uuid "222686c5-4f33-46bf-99df-be4125e94853")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_M-" input
+			(at 114.3 138.43 180)
+			(uuid "7e7f1aea-44e0-4d8a-811d-5600916e5b2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M_Gate" output
+			(at 133.35 134.62 0)
+			(uuid "8a3f3401-ecfb-4e6f-a0d6-f89d2ad7f4a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M_Source" output
+			(at 133.35 138.43 0)
+			(uuid "2c713888-5115-455e-9650-cac43298a9c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 149.86)
+		(size 19.05 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "acc0f11f-7e5c-4e6a-8e05-0db05d7dfe65")
+		(property "Sheetname" "GateDriver_M3"
+			(at 134.62 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GateDriver.kicad_sch"
+			(at 134.62 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AGND" input
+			(at 134.62 165.1 180)
+			(uuid "e948d560-a30e-4aa2-9b4b-ff6eab75918b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M_Sig" input
+			(at 134.62 153.67 180)
+			(uuid "84f0efdc-0460-4571-91aa-778badb9081c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_M+" input
+			(at 134.62 157.48 180)
+			(uuid "d6ba8a5b-7db3-4ca1-8a57-3001d2a98d6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_M-" input
+			(at 134.62 161.29 180)
+			(uuid "cb9d56d7-4ffe-4dee-8d3e-9bb3e3723257")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M_Gate" output
+			(at 153.67 157.48 0)
+			(uuid "871b57bd-df89-4299-89cc-338b780802aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M_Source" output
+			(at 153.67 161.29 0)
+			(uuid "65a40461-cf05-436f-a2e8-02d818a4b64e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 69.85)
+		(size 34.29 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b194f5c2-8049-42d0-a0e0-772da5f8ae9c")
+		(property "Sheetname" "MPPT_Converter"
+			(at 102.87 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MPPT_Converter.kicad_sch"
+			(at 102.87 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BAT+" output
+			(at 137.16 82.55 0)
+			(uuid "461528b4-b180-4182-ab40-aa2a2f08c7fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PGND" output
+			(at 137.16 95.25 0)
+			(uuid "b7138ae8-46f4-4f74-b9ee-f7814673ec07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PV_IN" input
+			(at 102.87 76.2 180)
+			(uuid "5ca2a39c-f9c9-4bb8-bcb0-fb8e98c9b9fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1_Gate" input
+			(at 102.87 82.55 180)
+			(uuid "b7aff3c2-9679-47df-a349-32c2faaa4227")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1_Source" input
+			(at 102.87 88.9 180)
+			(uuid "337cd989-bbac-48f2-a7cd-c32197ea3ab0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M2_Gate" input
+			(at 102.87 95.25 180)
+			(uuid "427a5f67-a887-44c6-bdfe-80033377fd2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M2_Source" input
+			(at 102.87 101.6 180)
+			(uuid "95944223-02f3-4dca-bfb5-14e62cc8128e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 128.27)
+		(size 29.21 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb46d78d-7fb1-4a89-afc0-ddd9462290c0")
+		(property "Sheetname" "Microcontroller"
+			(at 36.83 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 36.83 179.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AGND" output
+			(at 66.04 132.08 0)
+			(uuid "c9ea8db9-d268-41b1-8b9e-4d77bcee7c31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PV_Current" input
+			(at 36.83 148.59 180)
+			(uuid "410d9193-842f-4948-9243-d90cdb0a4fa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" output
+			(at 36.83 132.08 180)
+			(uuid "ebc4cb7f-0846-4fb1-8f09-af47ab1ea05a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD2" output
+			(at 36.83 175.26 180)
+			(uuid "6f1d2229-2495-4aab-b842-18fbb5478cbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1_Sig" output
+			(at 36.83 139.7 180)
+			(uuid "0bd89a1c-1514-44de-b752-e5128ad57856")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M2_Sig" output
+			(at 36.83 167.64 180)
+			(uuid "8ac1b2e4-694c-4f5f-9198-d0322c88393b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M3_Sig" output
+			(at 66.04 146.05 0)
+			(uuid "af7fd3ca-f115-4c4c-a8e2-34ebd7f874cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PV_Voltage_Out+" input
+			(at 36.83 154.94 180)
+			(uuid "6e7a6bdc-81ad-475e-be85-b1f5874f2f7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PV_Voltage_Out-" input
+			(at 36.83 161.29 180)
+			(uuid "a62672d1-a2e5-4b8b-87fe-59eda9aa67b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 68.58)
+		(size 34.29 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e536ca63-3a95-4ece-9d07-9368a8309833")
+		(property "Sheetname" "Buck_Converter"
+			(at 218.44 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Buck_Converter.kicad_sch"
+			(at 218.44 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BAT+" input
+			(at 218.44 81.28 180)
+			(uuid "2b317c92-573c-4cc5-af5f-852645187b14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PGND" input
+			(at 218.44 93.98 180)
+			(uuid "7976ad1a-599b-421d-9813-eedacd2dbae1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Pump_Voltage" output
+			(at 252.73 87.63 0)
+			(uuid "73db80be-5945-47bd-a70d-ad91355af585")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M3_Gate" input
+			(at 231.14 68.58 90)
+			(uuid "9011b61e-b776-457b-b9f1-d1748ff233bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M3_Source" input
+			(at 241.3 68.58 90)
+			(uuid "5ee8d54c-352c-4e89-9dff-8f9080ecea24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SolarSystem"
+				(path "/f72ee98d-e439-4335-b2ba-b0b66e844c17"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

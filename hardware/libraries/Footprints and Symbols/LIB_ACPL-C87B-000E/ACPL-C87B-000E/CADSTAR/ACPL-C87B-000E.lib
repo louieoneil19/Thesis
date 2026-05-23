@@ -1,0 +1,16 @@
+.ACPL-C87B-000E :1 ;Optically isolated voltage sensor,SSO8 Broadcom ACPL-C87B-000E, Isolation Amplifier, 4.5  5.5 V, 8-Pin SSO
+SOIC127P1150X331-8N
+*STM IC
+*NGS
+*PLB 1="VDD1" 2="VIN" 3="SDHN" 4="GND1" 5="GND2" 6="VOUT-" 7="VOUT+" 8="VDD2"
+*MXP 8
+*DFN ACPL-C87B-000E
+~!Mouser Part Number (630-ACPL-C87B-000E)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/ACPL-C87B-000E?qs=mhB89zxvawmLiWfngQW5pg%3D%3D)
+~!Manufacturer_Name (Avago Technologies)
+~!Manufacturer_Part_Number (ACPL-C87B-000E)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/ACPL-C87B-000E.pdf)
+~!Height (3.307mm)
+~!3D_Model (ACPL-C87B-000E)
+ACPL-C87B-000E
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

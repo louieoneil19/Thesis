@@ -1,0 +1,9 @@
+chip_shape: [0.6, 0.3]
+description: |-
+  Coilcraft GA3459-BL
+  0201 from IPC-7351B: CAPC0603X33N
+name: '0201'
+pad_shape: [0.46, 0.42]
+pin_shape: [-0.15, 0.3]
+pitch: 0.66
+silk: null

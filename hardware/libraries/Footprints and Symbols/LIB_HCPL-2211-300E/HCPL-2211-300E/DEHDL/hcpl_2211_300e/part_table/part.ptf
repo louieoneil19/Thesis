@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'HCPL_2211_300E'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Avago Technologies", "HCPL-2211-300E" (!) = "", "6N137", "Other", "630-HCPL-2211-300E", "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HCPL-2211-300E?qs=xnajaXqBF9%252BPSYdymxWXoA%3D%3D", "", "", "Broadcom, HCPL-2211-300E DC Input Logic Gate Output Optocoupler, Surface Mount, 8-Pin DIP", "https://docs.broadcom.com/doc/Very-High-CMR-Wide-VCC-Logic-Gate-Optocouplers-DS", "4.455 mm"
+END_PART
+
+END.

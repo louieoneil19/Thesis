@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AGC1210X7R500-106KNE
+D Auto Grade Capacitor,1210,X7R,50V,10uF,+/-10%
+K
+F https://data.venkel.com/documents/agc-series?force=1
+$ENDCMP
+#
+#End Doc Library
